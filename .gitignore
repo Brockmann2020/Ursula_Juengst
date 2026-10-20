@@ -1,0 +1,71 @@
+# Bilder und Grafikdateien (auch bei grossgeschriebenen Dateiendungen)
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[jJ][fF][iI][fF]
+*.[pP][nN][gG]
+*.[gG][iI][fF]
+*.[wW][eE][bB][pP]
+*.[aA][vV][iI][fF]
+*.[sS][vV][gG]
+*.[iI][cC][oO]
+*.[bB][mM][pP]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[hH][eE][iI][cC]
+*.[hH][eE][iI][fF]
+*.[pP][sS][dD]
+*.[aA][iI]
+*.[eE][pP][sS]
+
+# Videos
+*.[mM][pP]4
+*.[mM]4[vV]
+*.[mM][oO][vV]
+*.[wW][eE][bB][mM]
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[mM][pP][gG]
+*.[mM][pP][eE][gG]
+*.[wW][mM][vV]
+*.[fF][lL][vV]
+
+# Audio
+*.[mM][pP]3
+*.[wW][aA][vV]
+*.[oO][gG][gG]
+*.[oO][pP][uU][sS]
+*.[fF][lL][aA][cC]
+*.[aA][aA][cC]
+*.[mM]4[aA]
+*.[aA][iI][fF]
+*.[aA][iI][fF][fF]
+*.[wW][mM][aA]
+
+# PDF-Dokumente und Schriftdateien
+*.[pP][dD][fF]
+*.[wW][oO][fF][fF]
+*.[wW][oO][fF][fF]2
+*.[tT][tT][fF]
+*.[oO][tT][fF]
+*.[eE][oO][tT]
+
+# Lokale IDE-Einstellungen und Betriebssystem-Dateien
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Abhaengigkeiten, Build-Ausgaben und Caches
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+*.log
+
+# Lokale Zugangsdaten
+.env
+.env.*
+!.env.example
+!.env.sample
