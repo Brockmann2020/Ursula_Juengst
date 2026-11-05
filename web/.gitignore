@@ -1,0 +1,6 @@
+/.next/
+/out/
+/public/pilot-media/
+/next-env.d.ts
+*.tsbuildinfo
+!/src/app/icon.svg

@@ -1,0 +1,29 @@
+{
+  "name": "ursula-juengst-web",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/prepare-media.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/prepare-media.mjs",
+    "build": "next build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.4.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@mui/material": "^9.5.0",
+    "@mui/material-nextjs": "^9.5.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@emotion/cache": "^11.14.0",
+    "sharp": "^0.34.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  }
+}

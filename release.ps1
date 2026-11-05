@@ -32,7 +32,7 @@ try {
     $excludedDirectories = @(
         '.git', '.svn', '.hg', '.idea', '.vscode', '.vs',
         '.codex', '.agents', '.aws', '.github',
-        'node_modules', '.cache', 'coverage', '__pycache__'
+        'node_modules', '.cache', 'coverage', '__pycache__', (Join-Path $sourcePath 'web')
     )
     $excludedFiles = @(
         '.git', '.gitignore', '.gitattributes', '.gitmodules', '.gitkeep',
