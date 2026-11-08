@@ -39,7 +39,7 @@ try {
         '*.iml', '*.iws', '*.ipr', '.DS_Store', 'Thumbs.db', 'Desktop.ini',
         '.env', '.env.*', '*.log',
         'AGENTS.md', 'qodana.yaml', 'qodana.yml',
-        'release.ps1', 'release.cmd', 'RELEASE.md', '*_backup.html'
+        'release.ps1', 'release.cmd', 'release.sh', 'release.command', 'RELEASE.md', '*_backup.html'
     )
     $copyArguments = @(
         $sourcePath, $targetPath,
