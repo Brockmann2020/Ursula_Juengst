@@ -94,6 +94,7 @@
         [/\bvon links\b/g, "from left"],
         [/Mit Texten von/g, "With texts by"],
         [/mit Texten von/g, "with texts by"],
+        [/\bErzbischof\b/g, "Archbishop"],
         [/((?:With|with) texts by [^\n<]*?)\bund\b/g, "$1and"],
         [/\bHerausgeber\b/g, "Edited by"],
         [/Erschienen im/g, "Published by"],
